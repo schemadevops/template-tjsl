@@ -7053,3 +7053,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.chat-icon:hover {
+  opacity: .6;
+  transition: .4s;
+}
+
+.input-chat {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  min-height: 30px;
+
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  resize: none;
+  background-color: #FFFFFF;
+
+  border-bottom-right-radius: 10px;
+}
+
+.input-chat:focus {
+  outline: none;
+}
+
+.from-admin {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.from-user {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
