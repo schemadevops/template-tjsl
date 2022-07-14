@@ -127,9 +127,7 @@ function mailChimp() {
   $('#mc_embed_signup').find('form').ajaxChimp();
 }
 mailChimp();
-  
 
-$('#calendar').evoCalendar()
 
 $('#btn_chat').on('click', (e)=> {
   e.preventDefault()
@@ -147,5 +145,6 @@ $('#close_chat_btn').on('click', (e)=> {
   chatOpen.hide()
 })
 
+$('#calendar').evoCalendar()
 
 }(jQuery));
